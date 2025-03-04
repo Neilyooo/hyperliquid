@@ -1,1 +1,23 @@
-
+{
+  "addresses": [
+    {"name": "1", "address": "0x20c2d95a3dfdc9e9ad12794d5fa6ad99da44f5"},
+    
+  ],
+  "notification": {
+    "type": "email",
+    "email": {
+      "to": "recipient@example.com",
+      "from": "sender@example.com",
+      "smtp_server": "smtp.example.com",
+      "smtp_port": 587,
+      "username": "username",
+      "password": "password"
+    },
+    "wechat": {
+      "appid": "your_app_id",
+      "secret": "your_secret",
+      "to_user": "user_id"
+    }
+  },
+  "crawl_interval": 60  
+}
